@@ -15,10 +15,14 @@
     "react",
     "angular"
   ],
+  "bin": {
+    "philos": "bin/index.js"
+  },
   "author": "davyengone",
   "license": "MIT",
   "devDependencies": {
     "babel-eslint": "^5.0.0",
+    "cliparse": "^0.2.5",
     "eslint": "^2.4.0",
     "eslint-config-airbnb": "^6.1.0",
     "eslint-plugin-react": "^4.2.3",
