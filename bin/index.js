@@ -1,5 +1,5 @@
 #! /usr/bin/env node
 
-register('babel-node/register');
-register('./philos');
+require('babel-core/register');
+require('./philos');
 
